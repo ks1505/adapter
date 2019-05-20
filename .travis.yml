@@ -15,6 +15,8 @@ env:
   matrix:
     - BROWSER=chrome  BVER=stable
     - BROWSER=chrome  BVER=stable CHROMEEXPERIMENT=false
+    - BROWSER=chrome  BVER=stable PLANB=forever
+    - BROWSER=chrome  BVER=stable CHROMEEXPERIMENT=false PLANB=forever
     - BROWSER=chrome  BVER=beta
     - BROWSER=chrome  BVER=beta CHROMEEXPERIMENT=false
     - BROWSER=chrome  BVER=unstable
